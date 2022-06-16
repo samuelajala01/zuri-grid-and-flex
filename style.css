@@ -1,0 +1,110 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0.5rem 2rem;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(32, 27, 27);
+  margin: 0 auto;
+}
+
+nav ul {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 1.6rem 0;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+button {
+  margin: 1.5rem 0;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1.5rem;
+  border: unset;
+}
+
+.one button {
+  color: hsl(31, 77%, 52%);
+}
+.two button {
+  color: hsl(184, 100%, 22%);
+}
+.three button {
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  background: transparent;
+  outline: 2px solid #fff;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  width: 50rem;
+  height: 27rem;
+}
+
+.one,
+.two,
+.three {
+  padding: 2.5rem;
+}
+
+img {
+  margin: 1rem 0;
+}
+
+.one {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 1rem 0 0 1rem;
+  flex: 1;
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+  flex: 1;
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 1rem 1rem 0;
+  flex: 1;
+}
